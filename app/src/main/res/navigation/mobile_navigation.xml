@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_login">
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.skarbonka.pam.ui.login.LoginFragment"
+        android:label="@string/title_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/navigation_cash"
+        android:name="com.skarbonka.pam.ui.cash.CashFragment"
+        android:label="@string/title_cash"
+        tools:layout="@layout/fragment_cash" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.skarbonka.pam.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
+</navigation>
