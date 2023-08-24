@@ -4,7 +4,7 @@
 
 ## App icon
 
-![icon](icon.png =100x100)
+<img src="icon.png" height="120" width="120">
 
 ## Note
 
