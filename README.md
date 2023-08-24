@@ -10,8 +10,8 @@
 
 I'm not owner of used images, those were inplemented into a project as a placeholder.
 To use app there are pre-seted login and password:
-Login -> android
-Password -> skarbonka
+- Login -> android
+- Password -> skarbonka
 
 ## Author
 
